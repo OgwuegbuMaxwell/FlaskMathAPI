@@ -48,8 +48,7 @@ The application should now be running on http://127.0.0.1:5000/.
 **### API Endpoints**
 The API supports the following operations:
 
-Addition
-
+**Addition**
 URL: /add
 Method: POST
 Data Params: {"x": int, "y": int}
@@ -59,20 +58,20 @@ Content: { "Message": result, "Status Code": 200 }
 Error Response:
 Code: 301
 Content: { "Message": "An error happened", "Status Code": 301 }
-Subtraction
 
+**Subtraction**
 URL: /subtract
 Method: POST
 Data Params: {"x": int, "y": int}
 Responses: Similar to addition.
-Multiplication
 
+**Multiplication**
 URL: /multiply
 Method: POST
 Data Params: {"x": int, "y": int}
 Responses: Similar to addition.
-Division
 
+**Division**
 URL: /divide
 Method: POST
 Data Params: {"x": int, "y": int}
